@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 1%;
+    flex: 1 0 50%;
+    height: 50vh;
+}
